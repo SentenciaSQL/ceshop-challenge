@@ -20,8 +20,9 @@ Dentro de la carpeta dist se encuantra el proyecto compilado. en caso de querer 
 ```java
 public class PalindromeApp {
     public static void main(String[] args) throws Exception {
-        System.out.println(isPalindrome("ana"));
-        System.out.println(isPalindrome("Ana"));
+        String word1 = "ana", word2 = "Ana";
+        System.out.println("Is the word " + word1 + " is palindrome?: " + isPalindrome(word1));
+        System.out.println("Is the word " + word2 + " is palindrome?: " + isPalindrome(word2));
     }
 
     public static boolean isPalindrome(String str) {
@@ -35,6 +36,11 @@ public class PalindromeApp {
         return true;
     }
 }
+```
+Output:
+```
+Is the word ana is palindrome?: true
+Is the word Ana is palindrome?: false
 ```
 
 **Project #3** - Write a function that takes in an array of numbers and prints the
@@ -59,7 +65,13 @@ public class CombunationApp {
         }
     }
 }
-
+```
+Output:
+```
+1 + 9 = 10
+2 + 8 = 10
+3 + 7 = 10
+4 + 6 = 10
 ```
 
 **Project #4** – Write a fully functioning java application that takes an integer as a command line argument
@@ -84,5 +96,15 @@ public class CombunationApp {
         }
     }
 }
+```
+Output:
+```
+Enter a number: 7
+7th hexagonal number is: 91
 
+Enter a number: 3
+3th hexagonal number is: 15
+
+Enter a number: 2
+2th hexagonal number is: 6
 ```
