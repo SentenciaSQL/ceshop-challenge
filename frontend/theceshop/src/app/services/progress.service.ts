@@ -13,7 +13,6 @@ import { Course } from '../models/Course';
 export class ProgressService {
 
   private url = environment.url;
-  private httpHeader = new HttpHeaders({'Access-Control-Allow-Origin': "*"})
 
   constructor(private http: HttpClient) { }
 
