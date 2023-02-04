@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class Studet {\n  constructor() {\n    this.id = 0;\n    this.firstName = \"\";\n    this.lastName = \"\";\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

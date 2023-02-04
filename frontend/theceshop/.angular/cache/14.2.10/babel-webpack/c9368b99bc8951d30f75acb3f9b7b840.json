@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { Studet } from './student';\nimport { Course } from './Course';\nexport class Progress {\n  constructor() {\n    this.id = 0;\n    this.completedQuestions = 0;\n    this.student = new Studet();\n    this.course = new Course();\n    this.percentageCompleted = 0;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}
