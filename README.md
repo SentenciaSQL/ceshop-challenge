@@ -108,3 +108,35 @@ Enter a number: 3
 Enter a number: 2
 2th hexagonal number is: 6
 ```
+
+## Additional Practical Interview Questions:
+
+**1. How would you make an application testable, what do you do to ensure code quality?**
+
+
+*To make an application testable and ensure the quality, I would use the following practices:*
+
+- Clean Code and SOLID principles: Write code that is easy to understand and maintain. Use descriptive variable and method names, keep functions short and focused, and use meaningful comments to explain what the code is doing.
+- Use a Linter if is possible: This will help to maintain a consistent style across the codebase and catch common coding mistakes.
+- Write Unit Test: Write small, isolated tests for individual components or methods of the application, this will help to catch bugs early in the development process.
+- Code Reviews: Have other developers review with the code before it is merged into the main branch.
+- Use Automated Build and Deployment: Use tools such as Jenkins to automate the build and deployment process.
+
+**2. From a software development perspective, what steps might you take, on an ongoing basis, to continually improve your skillset?**
+
+- Keep Learning: Take online courses, attend workshops and conferences, read books among others.
+- Practice: Participate in coding challenges, make personal projects and experiment with new technologies.
+- Mentor Others: Mentoring others is a great way to reinforce our own skills and knowledge.
+- Collaborate with Others: Collaborate with other developers and learn from their experiences.
+- Stay Motivated: Stay motivated by setting goals and focusing on what you enjoy about software development.
+
+**3. Provide an example of a time when you just couldn’t complete all of your work on time to meet a deadline. What did you do? What was the result?**
+
+Several years ago, I took on a project with a relatively tight deadline and in a technology in a technology that he did not master and with a learning curve. To get the work done as soon as possible, I decided to skip some of the testing process in that time we haven’t a QA team either.
+
+Instead of testing after every step, I waited to apply the changes until the code was finished. As a result, many problems came up and I had to start to fix all those bugs.
+
+I missed my deadline and had to change the delivery window. Luckily the client understood and gave the extra time I needed.
+
+
+
