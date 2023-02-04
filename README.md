@@ -2,13 +2,13 @@
 
 **Project #1.** 
 
-*Backend:*
+***Backend:***
 
 Inside the backend folder is the project theceshopChallenge is a REST API in Java/SpringBoot. Here you can find both the source code, some unit test cases as well as a generated war file inside the target folder.
 
 For the database you can use both the import.sql file inside the SQL folder, or also the import.sql file inside the project resources since the application.properties the DDL is set to "create-drop".
 
-*Frontend:*
+***Frontend:***
 
 Dentro de la carpeta frontend se encuentra el proyecto theceshop, es un proyecto frontend en Angular que se encarga de consumir el API REST de java y mostrar la informacion requerida. 
 
