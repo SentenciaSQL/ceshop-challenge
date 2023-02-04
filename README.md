@@ -1,4 +1,4 @@
-# ceshop-challenge
+# Practical Interview Project
 
 **Project #1.** 
 
