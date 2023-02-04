@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.afrias.ceshopcourses.models.Progress;
 import com.afrias.ceshopcourses.repository.IProgressRepository;
 
-@CrossOrigin(origins = {"http://localhost:4200", "*", "http://localhost:8080", "http://localhost:8080/api/student"})
+@CrossOrigin(origins = {"http://localhost:4200", "*", "http://localhost:8080"})
 @RestController
 @RequestMapping("/api")
 public class ProgressController {
