@@ -49,7 +49,7 @@ combinations that add up to 10.
 ```java
 import java.util.List;
 
-public class CombunationApp {
+public class CombinationApp {
     public static void main(String[] args) throws Exception {
         List<Integer> numbers = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9);
         printConbination(numbers);
