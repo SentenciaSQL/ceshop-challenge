@@ -136,4 +136,3 @@ Instead of testing after every step, I waited to apply the changes until the cod
 I missed my deadline and had to change the delivery window. Luckily the client understood and gave the extra time I needed.
 
 
-
