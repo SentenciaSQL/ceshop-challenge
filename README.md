@@ -78,22 +78,19 @@ Output:
 n, and outputs the nth hexagonal number for the input?
 
 ```java
-import java.util.List;
+import java.util.Scanner;
 
-public class CombunationApp {
-    public static void main(String[] args) throws Exception {
-        List<Integer> numbers = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9);
-        printConbination(numbers);
+public class HexagonalNumber {
+    public static void main(String[] args) {
+       try (Scanner input = new Scanner(System.in)) {
+            System.out.print("Enter a number: ");
+            int number = input.nextInt();
+            System.out.println(number + "th hexagonal number is: " + getHexagonalNumber(number));
+        }
     }
 
-    public static void printConbination(List<Integer> numbers) {
-        for(int i = 0; i < numbers.size(); i++) {
-            for(int j = i + 1; j < numbers.size(); j++) {
-                if(numbers.get(i) + numbers.get(j) == 10) {
-                    System.out.println(numbers.get(i) + " + " + numbers.get(j) + " = 10");
-                }
-            }
-        }
+    public static int getHexagonalNumber(int n) {
+        return n * (2 * n - 1);
     }
 }
 ```
